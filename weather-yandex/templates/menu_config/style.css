@@ -1,0 +1,42 @@
+.weather-option-btn{
+    margin-top: 10px;
+    padding: 8px 14px;
+    color: #0b0808;
+    border: 2px solid #1986f4;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 15px !important;
+}
+.weather-yandex-popup{
+    display: grid;
+    gap:  10px;
+    grid-template-rows: 1fr;
+
+}
+.weather-yandex-popup-item{
+    display: flex;
+    justify-content: space-between;
+}
+.field-label {
+    font-weight: bold;
+    min-width: 100px;
+    display: inline-block;
+}
+.field-select {
+
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+.btn-save {
+    margin-top: 10px;
+    padding: 8px 14px;
+    background-color: #0065ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn-save:hover {
+    background-color: #004ecc;
+}
