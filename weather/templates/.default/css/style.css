@@ -1,0 +1,102 @@
+
+.weather-widget{
+    font-family: Inter !important;
+    position: relative;
+    max-width: 100% !important;
+    padding: 3px;
+    background-image:url("../image/background.png");
+    color: #031f40;
+    border-radius: 21px !important;
+    margin-bottom: 10px;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    padding-bottom: 10px !important;
+    font-weight: 400;
+}
+.weather-widget-dark-lighit-block{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.weather-widget-dark-lighit-block button{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 20px;
+    z-index: 1000;
+}
+.weather-widget .weather-icon{
+    width: 25%;
+    position: absolute;
+    top: 0;
+    left: -29px;
+    border-radius: 15px;
+}
+.weather-widget .weather-widget-time-block
+{
+    width: 80%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    gap:8px;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 100%;
+    color: #98ABBE;
+    margin-left: 19px;
+}
+.weather-title-block{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.weather-widget-temperaturs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 14px !important;
+    font-weight: 400;
+    font-size:28px;
+  
+}
+.weather-widget .weather-widget-block {
+    width: 90%;
+    display: grid;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 15px !important;
+    margin-bottom: 29px !important;
+}
+.weather-action{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:3px;
+    border-radius:  15px !important;
+    padding: 5px !important;
+    border: 1px solid #ccc !important;
+    background: #98ABBE;
+
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 100%;
+}
+.weather-widget .weather-widget-block > span {
+    width: 100%;
+    border-radius:  15px !important;
+    padding: 5px !important;
+    border: 1px solid #ccc !important;
+    background: #98ABBE;
+
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 100%;
+}
+.hidden{
+    display: none;
+}

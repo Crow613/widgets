@@ -1,0 +1,4 @@
+vendor
+.env
+templates/vue-weather
+composer.lock
